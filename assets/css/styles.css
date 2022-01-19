@@ -235,7 +235,6 @@ nav ul li {
 .contact-form-container label {
   line-height: 2.7em;
   font-weight: var(--bold-font);
-  color: var(--primary-color);
 }
 
 .contact-form-container textarea {
@@ -247,7 +246,7 @@ nav ul li {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 6px;
   border: none;
   border: 2px outset var(--primary-color);
   font-size: 0.875rem;
@@ -269,12 +268,16 @@ nav ul li {
   font-size: 1rem;
   font-weight: var(--bold-font);
   transition: var(--transition);
+  align-items: center;
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 .submit-btn:hover {
-  background-color: var(--primary-color);
+  background-color: #fff ;
   border: 2px solid var(--primary-color);
   cursor: pointer;
+  color: var(--primary-color);
 }
 /* Contacts section ends */
 
