@@ -136,6 +136,11 @@ nav ul li {
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
 }
 
 .more-about h2 {
@@ -215,10 +220,13 @@ nav ul li {
 .table-profexp{
   text-decoration-color: var(--primary-color) ;
 }
+.alignright{
+  float: right;
+}
 
 /* Projects section ends */
 
-/* Contacts section */
+/* Contacts and Professional experience sections */
 .contact {
   margin-top: 2rem;
 }
@@ -297,6 +305,10 @@ nav ul li {
 .socicon {
   width: 2rem;
   height: 2rem;
+}
+.profexp-icon{
+  width: 1rem;
+  height: 1rem;
 }
 /* Social button ends */
 
@@ -436,7 +448,6 @@ footer {
   .project-container {
     width: 17.875rem;
   }
-
   .contact-form-container {
     max-width: 17.75rem;
   }
