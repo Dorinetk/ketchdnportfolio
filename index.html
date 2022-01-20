@@ -5,7 +5,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font-->
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!--CSS Styles -->
   <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -38,7 +42,9 @@
 
   <!-- Hero Section -->
   <section class="hero" id="about">
-    <img src="./assets/images/avataaars2.svg" alt="Dorine Nicole" loading="lazy" class="hero-img" />
+    <div class="div-hero-img">
+      <img src="./assets/images/avataaars2.svg" alt="Dorine Nicole avataaars" loading="lazy" class="hero-img" />
+    </div>
     <div class="bio animate__animated animate__shakeX">
       <h2 class="bio-title">About Me</h2>
       <p class="bio-text">
@@ -58,31 +64,18 @@
 
     <div class="skills-wrapper">
       <div class="first-set animate__animated animate__pulse">
-        <img src="assets/icons/icons8-amazon-web-services-48.svg" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-linux-96.png" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-python-240.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-amazon-web-services-48.svg" alt="AWS services" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-linux-96.png" alt="Linux" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-git.svg" alt="Git" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-python-240.png" alt="Python" loading="lazy" class="icon icon-card" />
 
       </div>
 
       <div class="second-set animate__animated animate__pulse">
-        <!-- <img
-            src="assets/icons/icons8-html-5.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          
-          <img
-            src="assets/icons/icons8-css3.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          /> -->
-        <img src="assets/icons/icons8-wordpress-240.png" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-wordpress-240.png" alt="WordPress" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-bootstrap.svg" alt="BootStrap" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card" />
 
       </div>
     </div>
@@ -93,7 +86,7 @@
     <h2 class="projects-title">Projects</h2>
     <div class="projects-container">
       <div class="project-container project-card">
-        <img src="./assets/images/cloudproject2/maincontactflowinboundcalls.png" alt="netflic-clone" loading="lazy"
+        <img src="./assets/images/cloudproject2/maincontactflowinboundcalls.png" alt="contact flow view" loading="lazy"
           class="project-pic" />
         <h3 class="project-title">Amazon Connect Contact Center</h3>
         <p class="project-details">
@@ -112,7 +105,7 @@
         <a href="https://github.com/Dorinetk/pythonpayroll" target="_blank" class="project-link">Check it Out</a>
       </div>
       <div class="project-container project-card">
-        <img src="./assets/images/cloudproject1/energyconsumptiondashboard.png" alt="expense-tracker" loading="lazy"
+        <img src="./assets/images/cloudproject1/energyconsumptiondashboard.png" alt="energy dashboard view" loading="lazy"
           class="project-pic" />
         <h3 class="project-title">Energy Consumption Dashboard</h3>
         <p class="project-details">
@@ -128,20 +121,27 @@
   <!-- More about -->
   <section class="more-about">
     <h2>Professional Experience</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-      nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-      autem deleniti cupiditate molestias quis unde quae totam porro dicta
-      iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-      nostrum dolor minus, libero delectus praesentium perferendis
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-      consequuntur labore? Ea totam voluptas amet!
-    </p>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <h3 class="project-title">Cloud Engineer</h3>
+        
+        <p class="project-details">
+          <a>Belle-Fleur Technologies</a> | Jul. 2021 - Nov. 2021 </br>
+          Built ...
+        </p>
+        <h3 class="project-title">Web Developer</h3>
+        <p class="project-details">
+          <a>Belle-Fleur Technologies</a> | Jul. 2021 - Nov. 2021 </br>
+          Built ...
+        </p>
+        <h3 class="project-title">Webmaster / Social Media Manager</h3>
+        <p class="project-details">
+          <a>Belle-Fleur Technologies</a> | Jul. 2021 - Nov. 2021 </br>
+          Built ...
+        </p>
+        <a href="awsquicksight.html" target="_blank" class="project-link">Download Resume</a>
+      </div> 
+      
   </section>
 
   <!-- Contact section -->
@@ -189,9 +189,10 @@
   <footer>
     
     <p class="copy">
-      Built by 
-       <a href="https://github.com/Dorinetk" target="_blank">Dorine Nicole Ketchiozo (Ketchdn)</a>
-        | 2022
+       &copy; 2022 Dorine Nicole Ketchiozo (Ketchdn). All rigths reserved. <a href="https://github.com/Dorinetk" target="_blank">
+         
+       </a>
+        
     </p>
   </footer>
 
@@ -201,6 +202,9 @@
   <!-- Ion icons scripts -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 
 </html>

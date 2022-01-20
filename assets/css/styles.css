@@ -2,7 +2,7 @@
 
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  --font-family:"Quicksand";
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -119,7 +119,7 @@ nav ul li {
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  box-shadow: 0 3px 10px var(--secondary-shadow);
 }
 
 .bio h1 {
@@ -166,8 +166,8 @@ nav ul li {
 }
 
 .icon {
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 9.875rem;
+  height: 9.25rem;
 }
 /* Skills section ends */
 
@@ -210,6 +210,10 @@ nav ul li {
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+}
+/* Professional experience */
+.table-profexp{
+  text-decoration-color: var(--primary-color) ;
 }
 
 /* Projects section ends */
@@ -331,7 +335,7 @@ footer {
 .project-card {
   background-color: #fff;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
+  box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
 }
@@ -372,13 +376,15 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: 15.5rem;
+    width: 15rem;
+    padding: 1rem 3.5rem;
   }
 
   .bio {
     margin-top: -7rem;
     width: 20.5rem;
+    
   }
 
   .more-about {
@@ -416,10 +422,15 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 23rem;
+    margin-bottom: 50rem;
   }
-
+ .hero {
+    flex-direction: column;
+ }
   .bio {
     width: 18.3rem;
+    padding: 2rem 3.5rem;
+    margin-top: 50rem;
   }
 
   .project-container {
