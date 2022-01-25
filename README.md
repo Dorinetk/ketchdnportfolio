@@ -6,11 +6,11 @@ Welcome to my portfolio. It is fully responsive and uses Bootstrap 5, HTML, CSS 
 
 ## Author
 
-[LinkedIn:ketchdt](linkedin.com/in/ketchdt)
+[LinkedIn:ketchdt](linkedin.com/in/ketchdt) Dorine Nicole Ketchiozo
 
 ## Sample Published Website
 
-A live website is already available via this [link](https://eager-williams-af0d00.netlify.app/?)
+A live website is already available via this [link](https://ketchdn.netlify.app/)
 The final version will be published on AWS.
 
 ## Tech Stack
