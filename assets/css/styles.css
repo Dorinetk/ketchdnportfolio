@@ -184,8 +184,8 @@ nav ul li {
 }
 
 .project-pic {
-  width: 65%;
-  height: 60%;
+  width: 85%;
+  height: 65%;
 }
 
 .projects-container {
@@ -196,7 +196,8 @@ nav ul li {
 }
 .projects-title {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  padding-top: 4rem;
 }
 
 .project-container {
@@ -215,7 +216,7 @@ nav ul li {
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
-  min-height:26rem;
+  min-height:28rem;
 }
 
 .carousel-control-next-icon,
