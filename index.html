@@ -8,7 +8,8 @@
   <!-- Font QuickStand-->
   <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!--CSS Styles -->
   <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -63,7 +64,8 @@
 
     <div class="skills-wrapper">
       <div class="first-set animate__animated animate__pulse">
-        <img src="assets/icons/icons8-amazon-web-services-48.svg" alt="AWS services" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-amazon-web-services-48.svg" alt="AWS services" loading="lazy"
+          class="icon icon-card" />
         <img src="assets/icons/icons8-linux-96.png" alt="Linux" loading="lazy" class="icon icon-card" />
         <img src="assets/icons/icons8-git.svg" alt="Git" loading="lazy" class="icon icon-card" />
         <img src="assets/icons/icons8-python-240.png" alt="Python" loading="lazy" class="icon icon-card" />
@@ -80,9 +82,9 @@
     </div>
   </section>
 
-  <!-- Projects section -->
+  <!-- Projects section 1 -->
   <section class="projects" id="projects">
-    <h2 class="projects-title">Projects</h2>
+    <h2 class="projects-title">Latest Projects</h2>
     <div class="projects-container">
       <div class="project-container project-card">
         <img src="./assets/images/cloudproject2/maincontactflowinboundcalls.png" alt="contact flow view" loading="lazy"
@@ -104,8 +106,8 @@
         <a href="https://github.com/Dorinetk/pythonpayroll" target="_blank" class="project-link">Check it Out</a>
       </div>
       <div class="project-container project-card">
-        <img src="./assets/images/cloudproject1/energyconsumptiondashboard.png" alt="energy dashboard view" loading="lazy"
-          class="project-pic" />
+        <img src="./assets/images/cloudproject1/energyconsumptiondashboard.png" alt="energy dashboard view"
+          loading="lazy" class="project-pic" />
         <h3 class="project-title">Energy Consumption Dashboard</h3>
         <p class="project-details">
           Used AWS services, including Glue DataBrew, Glue, S3, Athena, and QuickSight, to clean, transform, store,
@@ -113,8 +115,132 @@
         </p>
         <a href="awsquicksight.html" target="_blank" class="project-link">Check it out</a>
       </div>
+    </div>
+  </section>
 
 
+  <!-- Projects section 2-->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Latest Projects 2</h2>
+    <div class="projects-container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="project-container project-card">
+
+              <img src="./assets/images/cloudproject2/maincontactflowinboundcalls.png" alt="contact flow view"
+                loading="lazy" class="project-pic" />
+              <h3 class="project-title">Amazon Connect Contact Center</h3>
+              <p class="project-details">
+                Built a simple contact center for a business using AWS service Amazon Connect. It has three queues for
+                sales, customer service and technical support. The main contact flow for inbound calls shows the
+                customer
+                experience from start to end.
+              </p>
+              <a href="awsconnect.html" target="_blank" class="project-link">Check it Out</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="project-container project-card">
+              <img src="assets/images/python/viewpayrollpy.png " alt="python payroll" loading="lazy"
+                class="project-pic" />
+              <h3 class="project-title">Python Payroll</h3>
+              <p class="project-details">
+                Used Python to create this payroll, resulting in implementation of improved payroll system for client.
+              </p>
+              <a href="https://github.com/Dorinetk/pythonpayroll" target="_blank" class="project-link">Check it Out</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="project-container project-card">
+              <img src="./assets/images/cloudproject1/energyconsumptiondashboard.png" alt="energy dashboard view"
+                loading="lazy" class="project-pic" />
+              <h3 class="project-title">Energy Consumption Dashboard</h3>
+              <p class="project-details">
+                Used AWS services, including Glue DataBrew, Glue, S3, Athena, and QuickSight, to clean, transform,
+                store,
+                query and visualize energy consumption data across many facilities of company.
+              </p>
+              <a href="awsquicksight.html" target="_blank" class="project-link">Check it out</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+  <!-- Projects section 3 -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Latest Projects 3</h2>
+    <div class="projects-container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/cloudproject2/maincontactflowinboundcalls.png" class="d-block w-100 project-pic"
+              alt="View contact flow">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Amazon Connect Contact Center</h5>
+              <p>Built a simple contact center for a business using AWS service Amazon Connect.</p>
+              <a href="awsconnect.html" target="_blank" class="project-link">Check it Out</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/python/viewpayrollpy.png " alt="python payroll" class="d-block w-100 project-pic">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Python Payroll</h5>
+              <p>Used Python to create this payroll, resulting in implementation of improved payroll system for client.
+              </p>
+              <a href="https://github.com/Dorinetk/pythonpayroll" target="_blank" class="project-link">Check it Out</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/cloudproject1/energyconsumptiondashboard.png" class="d-block w-100 project-pic"
+              alt="energy dashboard view">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Energy Consumption Dashboard</h5>
+              <p>Uses AWS Services to build a dashboard to visualize energy consumption data across many facilities of
+                company.</p>
+              <a href="awsquicksight.html" target="_blank" class="project-link">Check it out</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </section>
   <!-- More about -->
@@ -122,25 +248,27 @@
     <h2>Professional Experience</h2>
     <div class="contact-form-container">
       <div class="contact-form">
-        <h3 class="project-title">Cloud Engineer</h3>
+        <h3 class="project-title">Cloud Engineer- Intern</h3>
         <p class="project-details">
-          <a href="https://www.bellefleurtech.com/" target="_blank" class="project-link">Belle-Fleur Technologies</a> Jul. 2021 - Nov. 2021 </br>
+          <a href="https://www.bellefleurtech.com/" target="_blank" class="project-link">Belle-Fleur Technologies</a>
+          Jul. 2021 - Nov. 2021 </br>
         </p>
         <h3 class="project-title">Web Developer</h3>
         <p class="project-details">
-          <a>Self-Employed </a><img src="assets/icons/icons8-calendar-16.png" alt="calendar"
-          class="profexp-icon" />2019 -2022 </br>
-       </p>
+          <a>Self-Employed </a><img src="assets/icons/icons8-calendar-16.png" alt="calendar" class="profexp-icon" />2019
+          -2022 </br>
+        </p>
         <h3 class="project-title">Webmaster / Social Media Manager</h3>
         <p class="project-details">
-          <a href="https://cm.usembassy.gov/" target="_blank">U.S. State Department: U.S. Embassy Yaounde </a> <img src="assets/icons/icons8-calendar-16.png" alt="calendar"
-          class="profexp-icon" />2003 - 2019 </br>
-       </p>
-       <p><span class="alignright"> <a href="./assets/pdf/Dorine Nicole Ketchiozo_cloud01112022resume.pdf" target="_blank"alt="resume">Download Resume</a><img src="assets/icons/icons8-download-48 (1).png" alt="calendar"
-        class="profexp-icon" /> </span></p>
-       
-    </div> 
-      
+          <a href="https://cm.usembassy.gov/" target="_blank">U.S. State Department: U.S. Embassy Yaounde </a> <img
+            src="assets/icons/icons8-calendar-16.png" alt="calendar" class="profexp-icon" />2003 - 2019 </br>
+        </p>
+        <p><span class="alignright"> Download Resume<a
+              href="./assets/pdf/Dorine Nicole Ketchiozo_cloud01112022resume.pdf" target="_blank" alt="resume"><img
+                src="assets/icons/icons8-download-48 (1).png" alt="calendar" class="profexp-icon" /> </a></span></p>
+
+      </div>
+
   </section>
 
   <!-- Contact section -->
@@ -149,7 +277,7 @@
     <div class="contact-form-container">
       <div class="contact-form">
         <form action="https://formspree.io/f/meqnelbw" method="POST">
-          
+
 
           <div class="form-group mb-3">
             <label for="name">Name</label>
@@ -167,20 +295,19 @@
               class="input-field" required></textarea>
           </div>
           <input type="submit" value="Submit" id="submit-btn" class="btn btn-primary" />
-        </form> 
+        </form>
       </div>
     </div>
   </section>
 
-
   <!-- Social accounts - Fixed to the right -->
   <div class="socials">
     <a href="https://twitter.com/ketchdn" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif"
-      alt="Twitter" loading="lazy" class="socicon" /></a>
-  <a href="https://www.linkedin.com/in/ketchdt" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif"
-      alt="Linkedin" loading="lazy" class="socicon" /></a>
-  <a href="https://github.com/Dorinetk" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
-      class="socicon" /></a>
+        alt="Twitter" loading="lazy" class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/ketchdt" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif"
+        alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/Dorinetk" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+        class="socicon" /></a>
   </div>
 
   <!-- Scroll to top -->
@@ -193,24 +320,27 @@
       <div class="row">
         <div class="col-lg-5 pt-3">
           <p class="copy">
-            &copy; 2022 Dorine Nicole Ketchiozo (Ketchdn). All rigths reserved. 
+            &copy; 2022 Dorine Nicole Ketchiozo (Ketchdn). All rigths reserved.
           </p>
         </div>
         <div class="col-lg-2 d-flex justify-content-around align-items-center">
-          <a href="https://github.com/Dorinetk"" target="_blank" alt="github"><img src="./assets/icons/icons8-github-32.png" /> </a>
-          <a href="https://www.linkedin.com/in/ketchdt/"" target="_blank" alt="linkedin"><img src="./assets/icons/icons8-linkedin-30.png"/> </a>
-          <a href="https://twitter.com/ketchdn"" target="_blank" alt="Twitter"><img src="./assets/icons/icons8-twitter-30.png"/> </a>
+          <a href="https://github.com/Dorinetk"" target=" _blank" alt="github"><img
+              src="./assets/icons/icons8-github-32.png" /> </a>
+          <a href="https://www.linkedin.com/in/ketchdt/"" target=" _blank" alt="linkedin"><img
+              src="./assets/icons/icons8-linkedin-30.png" /> </a>
+          <a href="https://twitter.com/ketchdn"" target=" _blank" alt="Twitter"><img
+              src="./assets/icons/icons8-twitter-30.png" /> </a>
         </div>
-        <div class="col-lg-2 d-flex justify-content-around align-items-right">
+        <div class="col-lg-5 d-flex">
           <p>
-          <a href="terms.html"" target="_blank" class="text-dark ">Terms of Use</a> |
-          <a href="privacy.html"" target="_blank" class="text-dark">Privacy</a>
+            <a href="terms.html"" target=" _blank" class="text-dark ">Terms of Use</a> |
+            <a href="privacy.html"" target=" _blank" class="text-dark">Privacy</a>
           </p>
         </div>
       </div>
 
     </div>
-    
+
     <!--<p class="copy">
        &copy; 2022 Dorine Nicole Ketchiozo (Ketchdn). All rigths reserved. 
       <span class="alignright"> <a href="https://github.com/Dorinetk" target="_blank">github
@@ -225,8 +355,12 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

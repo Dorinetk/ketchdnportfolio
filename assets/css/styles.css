@@ -209,6 +209,10 @@ nav ul li {
   padding: 0.4rem;
 }
 
+. carousel-caption {
+  text-decoration-color: var(--primary-color) ;
+}
+
 .project-title {
   margin-bottom: var(--bottom-margin);
 }
@@ -216,10 +220,7 @@ nav ul li {
 .project-details {
   margin-bottom: var(--bottom-margin);
 }
-/* Professional experience */
-.table-profexp{
-  text-decoration-color: var(--primary-color) ;
-}
+
 .alignright{
   float: right;
 }
