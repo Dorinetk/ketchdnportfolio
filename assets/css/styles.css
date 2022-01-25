@@ -2,7 +2,7 @@
 
 /* Variables */
 :root {
-  --font-family:"Quicksand";
+  --font-family: "Quicksand";
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -108,7 +108,7 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
-  }
+}
 
 .hero img {
   height: 20.5rem;
@@ -192,8 +192,8 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
-
 .projects-title {
   text-align: center;
   margin-bottom: 1rem;
@@ -209,8 +209,18 @@ nav ul li {
   padding: 0.4rem;
 }
 
-. carousel-caption {
-  text-decoration-color: var(--primary-color) ;
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+  min-height:26rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter:invert(1);
 }
 
 .project-title {
@@ -221,7 +231,7 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
 }
 
-.alignright{
+.alignright {
   float: right;
 }
 
@@ -287,7 +297,7 @@ nav ul li {
 }
 
 .submit-btn:hover {
-  background-color: #fff ;
+  background-color: #fff;
   border: 2px solid var(--primary-color);
   cursor: pointer;
   color: var(--primary-color);
@@ -307,7 +317,7 @@ nav ul li {
   width: 2rem;
   height: 2rem;
 }
-.profexp-icon{
+.profexp-icon {
   width: 1rem;
   height: 1rem;
 }
@@ -345,13 +355,7 @@ footer {
   margin: 10px;
 }
 
-.project-card {
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
-  padding: 20px;
-  margin: 10px;
-}
+
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
@@ -397,7 +401,6 @@ footer {
   .bio {
     margin-top: -7rem;
     width: 20.5rem;
-    
   }
 
   .more-about {
@@ -437,9 +440,9 @@ footer {
     width: 23rem;
     margin-bottom: 50rem;
   }
- .hero {
+  .hero {
     flex-direction: column;
- }
+  }
   .bio {
     width: 18.3rem;
     padding: 2rem 3.5rem;
