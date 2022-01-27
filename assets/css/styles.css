@@ -192,7 +192,6 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .projects-title {
   text-align: center;
@@ -216,12 +215,12 @@ nav ul li {
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
-  min-height:28rem;
+  min-height: 28rem;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  filter:invert(1);
+  filter: invert(1);
 }
 
 .project-title {
@@ -355,8 +354,16 @@ footer {
   padding: 20px;
   margin: 10px;
 }
-
-
+.list-content li {
+  font-size: 14px;
+  margin-left: 10px;
+  list-style-type: circle;
+}
+.container-fluid {
+  height: 60vh;
+  overflow-y: auto;
+  padding-top: 70px;
+}
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
