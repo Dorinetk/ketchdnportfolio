@@ -364,6 +364,11 @@ footer {
   overflow-y: auto;
   padding-top: 70px;
 }
+.figure {
+  width: 60%;
+  height: 55%;
+}
+
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
