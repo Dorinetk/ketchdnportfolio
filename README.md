@@ -15,7 +15,7 @@ The final version will be published on AWS.
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Vanilla JavaSCript
+**Client:** HTML, CSS, Bootstrap 5, Vanilla JavaSCript 
 
 ## Tools Used
 
